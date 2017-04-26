@@ -1,0 +1,55 @@
+/*NEWS EMOTION*/
+#list-emotion-news {
+	width: 330px;
+	height: 300px; 
+}
+
+.list-item-emotion-news {
+	width: 300px;
+	border-right: 1px solid #ccc;
+	padding: 15px 15px 15px 0px !important;
+	box-shadow: none !important; 
+}
+
+.title-widget-emotion-news {
+	padding: 5px 5px 5px 0px;
+	color: #ff2e2e;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+	border-bottom: 3px solid #ff2e2e;
+	width: 190px;
+	margin-bottom: 10px;
+}
+
+
+.column-emotion-news {
+	float:left;
+	position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.emotion {
+	background: #ff2e2e;
+	color: #fff;
+	width: 60px;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+.emotion-news-title {
+	font-weight: bold;
+}
+
+.emotion-news-subtitle {
+	font-size: 12px;
+}
+
+.emotion-news-image {
+	float: left;
+	width: 125px !important;
+	height: 75px !important;
+	margin: 0px 10px;
+}

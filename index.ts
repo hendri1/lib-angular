@@ -6,7 +6,7 @@ import { SampleComponent } from './sample.component';
 import { SampleDirective } from './sample.directive';
 import { SamplePipe } from './sample.pipe';
 import { SampleService } from './sample.service';
-  import { MaterialModule } from '@angular/material';
+import { MaterialModule } from '@angular/material';
 
 export * from './sample.component';
 export * from './sample.directive';
@@ -17,6 +17,7 @@ export * from './sample.service';
   imports: [
     CommonModule,
     BrowserAnimationsModule,
+    SampleModule
     MaterialModule
   ],
   declarations: [
